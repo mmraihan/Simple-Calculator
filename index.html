@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini nproject</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+     
+<script src="app.js"></script>
+</head>
+<body>
+    
+
+
+
+    <div class="calculator">
+
+
+        <form action="" name="form">
+            
+         <input type="text" value="" id= show class="form-control main-bar" name="display"> 
+
+         <div class="button-area">
+            
+
+            <div class="line">
+
+                <input type="button" name="btn" value="0" class="btn btn-primary"onclick="cc(
+                    this.value)">
+                <input type="button" name="btn" value="00" class="btn btn-primary"onclick="cc(
+                    this.value)">
+                <input type="button" name="btn" value="." class="btn btn-primary"onclick="cc(
+                    this.value)">
+                <input type="button" name="btn" value="/" class="btn btn-warning"onclick="cc(
+                    this.value)">
+              
+            </div>
+
+            <div class="line">
+
+                <input type="button" name="btn" value="7" class="btn btn-primary" onclick="cc(
+                    this.value)"
+     >
+                <input type="button" name="btn" value="8" class="btn btn-primary"onclick="cc(
+                    this.value)">
+                <input type="button" name="btn" value="9" class="btn btn-primary"onclick="cc(
+                    this.value)"onclick="cc(
+                    this.value)">
+                <input type="button" name="btn" value="*" class="btn btn-warning"onclick="cc(
+                    this.value)">
+              
+            </div>
+
+            <div class="line">
+
+                <input type="button" name="btn" value="4" class="btn btn-primary"onclick="cc(
+                    this.value)">
+                <input type="button" name="btn" value="5" class="btn btn-primary"onclick="cc(
+                    this.value)">
+                <input type="button" name="btn" value="6" class="btn btn-primary"onclick="cc(
+                    this.value)">
+                <input type="button" name="btn" value="-" class="btn btn-warning"onclick="cc(
+                    this.value)">
+              
+            </div>
+
+            <div class="line">
+
+                <input type="button" name="btn" value="1" class="btn btn-primary"onclick="cc(
+                    this.value)">
+                <input type="button" name="btn" value="2" class="btn btn-primary"onclick="cc(
+                    this.value)">
+                <input type="button" name="btn" value="3" class="btn btn-primary"onclick="cc(
+                    this.value)">
+                <input type="button" name="btn" value="+" class="btn btn-warning"onclick="cc(
+                    this.value)">
+              
+            </div>
+
+             <div class="last">
+                <input type="button" name="btn" value="AC" class="btn btn-danger" onclick="display.value=null">
+                <input type="button" name="btn" value="=" class="btn btn-danger" onclick="display.value=eval(display.value) ">
+
+            </div>
+           
+            <h5 class="text-center ">
+                &copy; Md. Mubasshir Raihan
+                
+      
+              </h5>
+            
+               
+      
+            
+
+        </div>
+         </div>
+        </form>
+    </div>
+
+
+</body>
+</html>
